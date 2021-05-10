@@ -19,5 +19,8 @@
 
 >_{ **result**: ['roma', 'ramo', 'mora', 'maro', 'amor' ], **total**: 5 }_
 
+### Dictionary is updated with each search automatically
+
 #### Dictionary (70158 words by https://github.com/titoBouzout)
 https://raw.githubusercontent.com/titoBouzout/Dictionaries/master/Spanish.dic
+
