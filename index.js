@@ -21,9 +21,9 @@ const init = () => {
     .alias('w')
     .action(async (word, args) => {
       console.log('Your word is %s', word);
-      // await getDictionary().then(() => {
-      //   console.log('Dictionary download successful');
-      // });
+      await getDictionary().then(() => {
+        console.log('Dictionary download successful');
+      });
       const result = await anagramResolve(word);
       console.log({ result, total: result.length });
     });
